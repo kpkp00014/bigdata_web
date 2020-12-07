@@ -1,0 +1,148 @@
+<HTML>
+    <HEAD>
+        <TITLE>심장 질환 체크</TITLE>    
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    </HEAD>
+    <BODY>
+        <form class="form-horizontal" id="heartForm">
+            <fieldset>
+            
+            <!-- Form Name -->
+            <legend>심장병 체크 문서</legend>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="age">age</label>  
+              <div class="col-md-4">
+              <input id="age" name="feature0" type="number" placeholder="" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+            
+            <!-- Multiple Radios -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="radios">가슴 통증이 있습니까?</label>
+              <div class="col-md-4">
+              <div class="radio">
+                <label for="radios-0">
+                  <input type="radio" name="feature1" id="radios-0" value="1" checked="checked">
+                  예
+                </label>
+                </div>
+              <div class="radio">
+                <label for="radios-1">
+                  <input type="radio" name="feature1" id="radios-1" value="0">
+                  아니오
+                </label>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="trestbps">trestbps</label>  
+              <div class="col-md-4">
+              <input id="trestbps" name="feature2" type="number" placeholder="" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="chol">chol</label>  
+              <div class="col-md-4">
+              <input id="chol" name="feature3" type="number" placeholder="" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="thalach">thalach</label>  
+              <div class="col-md-4">
+              <input id="thalach" name="feature4" type="number" placeholder="" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="oldpeak">oldpeak</label>  
+              <div class="col-md-4">
+              <input id="oldpeak" step="0.1" name="feature5" type="number" placeholder="" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+            
+            <!-- Multiple Radios (inline) -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="ca">ca</label>
+              <div class="col-md-4"> 
+                <label class="radio-inline" for="ca-0">
+                  <input type="radio" name="feature6" id="ca-0" value="0" checked="checked">
+                  0
+                </label> 
+                <label class="radio-inline" for="ca-1">
+                  <input type="radio" name="feature6" id="ca-1" value="1">
+                  1
+                </label> 
+                <label class="radio-inline" for="ca-2">
+                  <input type="radio" name="feature6" id="ca-2" value="2">
+                  2
+                </label> 
+                <label class="radio-inline" for="ca-3">
+                  <input type="radio" name="feature6" id="ca-3" value="3">
+                  3
+                </label> 
+                <label class="radio-inline" for="ca-4">
+                  <input type="radio" name="feature6" id="ca-4" value="4">
+                  4
+                </label>
+              </div>
+            </div>
+            
+            <!-- Multiple Radios -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="thal">thal</label>
+              <div class="col-md-4">
+              <div class="radio">
+                <label for="thal-0">
+                  <input type="radio" name="feature7" id="thal-0" value="0" checked="checked">
+                  0
+                </label>
+                </div>
+              <div class="radio">
+                <label for="thal-1">
+                  <input type="radio" name="feature7" id="thal-1" value="1">
+                  1
+                </label>
+                </div>
+              <div class="radio">
+                <label for="thal-2">
+                  <input type="radio" name="feature7" id="thal-2" value="2">
+                  2
+                </label>
+                </div>
+              <div class="radio">
+                <label for="thal-3">
+                  <input type="radio" name="feature7" id="thal-3" value="3">
+                  3
+                </label>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Button -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="singlebutton">Single Button</label>
+              <div class="col-md-4">
+                <button id="submit_btn" name="singlebutton" class="btn btn-primary">Button</button>
+              </div>
+            </div>
+            
+            </fieldset>
+            </form>
+            
+    </BODY>
+    <script  type="text/javascript" src="cal.js"></script>
+</HTML>
