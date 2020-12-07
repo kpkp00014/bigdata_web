@@ -82,5 +82,6 @@ function doCal() {
   } else {
     h2.textContent += "심장병이 의심됩니다. 정밀 검진을 받아보세요";
   }
+  body.innerHTML = "";
   body.append(h2);
 }
